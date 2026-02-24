@@ -394,7 +394,7 @@ function FeedView({
           <h1 className="text-2xl font-bold">Calm Feed</h1>
           <p className="text-muted-foreground text-sm">Posts from our animal friends</p>
         </div>
-        <Button onClick={onCreate} className="bg-amber-500 hover:bg-amber-600">
+        <Button onClick={onCreatePost} className="bg-amber-500 hover:bg-amber-600">
           <Plus className="w-4 h-4 mr-2" />
           New Post
         </Button>
